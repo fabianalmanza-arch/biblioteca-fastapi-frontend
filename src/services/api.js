@@ -3,7 +3,7 @@ import axios from "axios";
 
 // URL base del backend FastAPI
 const API = axios.create({
-  baseURL: "http://127.0.0.1:8000",
+  baseURL: "https://biblioteca-fastapi-backend.onrender.com",
 });
 
 // Exportamos para usar en todo el proyecto
