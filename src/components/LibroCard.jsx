@@ -11,7 +11,7 @@ function LibroCard({ libro, onClick }) {
       )}
 
       <img
-        src={`http://127.0.0.1:8000/uploads/${libro.portada}`}
+        src={`https://biblioteca-fastapi-backend.onrender.com/uploads/${libro.portada}`}
         alt=""
       />
 
